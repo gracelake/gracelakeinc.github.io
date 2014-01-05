@@ -1,5 +1,16 @@
-/* Design by http://www.dreamtemplate.com */
+
 @charset "utf-8";
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
 body {
 	margin:0;
 	padding:0;
@@ -136,7 +147,7 @@ h1 small {
 	text-transform:uppercase;
 	background:#ededed;
 }
-.menu_nav ul li.active a, .menu_nav ul li a:hover {
+.menu_nav ul .active a, .menu_nav ul li a:hover {
 	text-decoration:none;
 	color:#fff;
 	background:#fc6400;
