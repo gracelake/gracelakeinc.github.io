@@ -53,6 +53,7 @@ a {
 	padding:0;
 }
 .header {
+    background: #f5f5f2;
 }
 .header_resize {
 	margin:0 auto;
@@ -158,8 +159,9 @@ h1 small {
 }
 .content_resize {
 	margin:0 auto;
-	padding:0;
+	padding:5;
 	width:960px;
+	background:#f5f5f2;
 }
 .content .mainbar {
 	margin:0;
